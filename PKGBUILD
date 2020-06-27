@@ -4,8 +4,8 @@
 
 pkgbase=nvidia-390xx-utils
 pkgname=('nvidia-390xx-utils' 'opencl-nvidia-390xx')
-pkgver=390.132
-pkgrel=2
+pkgver=390.138
+pkgrel=1
 arch=('x86_64')
 url="http://www.nvidia.com/"
 license=('custom')
@@ -15,7 +15,7 @@ source=('nvidia-drm-outputclass.conf'
         "http://us.download.nvidia.com/XFree86/Linux-x86_64/${pkgver}/NVIDIA-Linux-x86_64-${pkgver}-no-compat32.run")
 sha512sums=('de7116c09f282a27920a1382df84aa86f559e537664bb30689605177ce37dc5067748acf9afd66a3269a6e323461356592fdfc624c86523bf105ff8fe47d3770'
             '4b3ad73f5076ba90fe0b3a2e712ac9cde76f469cd8070280f960c3ce7dc502d1927f525ae18d008075c8f08ea432f7be0a6c3a7a6b49c361126dcf42f97ec499'
-            'cdd9b826d3ad96f6c255296336a988eb8e67e1916859319f6e19a24c32484ec5dbb00312bc641b62068829c757e301d14d6bcfc6d833ce78db83db862df59bbe')
+            'a4e6e63cbd74d25c5bef8efee64828acf45e89a27d1a677eab04a9a10fd10eb77bd28d17aab2009b282ae3db97e810b1c07aab80c257e8d981e6a8512c79f789')
 
 _pkg="NVIDIA-Linux-x86_64-${pkgver}-no-compat32"
 
